@@ -1,0 +1,68 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+a:link{
+    text-decoration: none!important;
+}
+a:hover{
+    text-decoration: none!important;
+  }
+
+.login{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 2px solid blue;
+    box-shadow: 0 0 20px red;
+    
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+}
+
+.form-control{
+    border-radius: 0 10px q0px 0!important;
+    width: 15rem!important;
+}
+.btn,.adminbtn{
+    display: grid;
+    place-items: center;
+    width: 20vw;
+}
+.btn a, .adminbtn a{
+    border: 2px solid rgb(46, 102, 223);
+    padding: 2px 20px;
+    border-radius: 100px;
+}
+
+.adminbtn a{
+    padding: 5px 60px!important;
+    background: rgb(46, 102, 223);
+    color: white;
+}
+.adminbtn a:hover{
+    color: rgb(46, 102, 223)!important;
+    background: white!important;
+    transition: 0.3s ease;
+}
+
+.btn a:hover{
+    background:rgb(46, 102, 223);
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary{
+    width: 5rem;
+}
